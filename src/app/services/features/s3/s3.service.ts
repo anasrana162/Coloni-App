@@ -5,8 +5,8 @@ import { config } from '../../../../Config';
 import AWS from 'aws-sdk';
 
 const s3 = new AWS.S3({
-  accessKeyId: "AKIAQ3EGPNDZLJABVN7C", 
-  secretAccessKey: "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",
+  accessKeyId: "", 
+  secretAccessKey: "",
   region: 'us-east-1'
 });
 // class S3Service {
